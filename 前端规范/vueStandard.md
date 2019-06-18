@@ -1,5 +1,37 @@
 # vue 代码规范 #
 
+## `README.md`文件说明 ##
+
+vue 项目根目录 `README.md` 文件需要添加链接说明，格式如下：
+
+项目描述...
+
+## 链接说明 ##
+
+### 本地调试链接如下（项目启动之后，可直接点击访问）： ###
+
+<http://localhost:8080/#/key1?key2=&keys3=>
+
+### 项目正式链接如下： ###
+
+先用类似于 javascript 的模板字符串语法写出：
+
+```javascript
+https://vshow.fooww.com/#/${key1}?key2=${key2}&key3=${key3}
+```
+
+再加一个外网可直接正式访问的链接：
+
+<https://vshow.fooww.com/#/key1?key2=&keys3=>
+
+### 链接参数说明： ###
+
+|key|说明|
+|----|----|
+|key1|key1描述，如果是个别值，比如说0~5，需要罗列出各个值对应的情况说明|
+|key2|key2描述|
+|key3|key3描述|
+
 ## [vue 风格指南](https://cn.vuejs.org/v2/style-guide/) ##
 
 vue 代码的书写习惯请严格遵守风格指南。

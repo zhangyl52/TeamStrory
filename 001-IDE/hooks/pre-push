@@ -1,0 +1,5 @@
+#!C:/Program\ Files/Git/usr/bin/sh.exe
+
+#export LESSCHARSET=utf-8
+
+exec powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./pre-push.ps1
